@@ -1,0 +1,60 @@
+{% extends "users/base.html" %}
+
+
+
+{% block nav %}
+    <nav>
+        <div class="nav-wrapper"style="background-color: #007db8;">
+        <a href="#" class="brand-logo">  DELL Services</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href=#><i class="material-icons">search</i></a></li>
+        <li><a href=#><i class="material-icons">view_module</i></a></li>
+        <li><a href=#><i class="material-icons">refresh</i></a></li>
+        <li><a href=#><i class="material-icons">more_vert</i></a></li>
+        </ul>
+        </div>
+    </nav>
+{% endblock %}
+
+
+
+
+
+
+
+
+{% block body %}
+<style>
+        .login_c{
+        width: 100%;
+        padding: 25px;
+        margin-top: 20%;
+        }
+        
+        .container{
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    </style>
+    
+
+<div class="container">
+    
+    <div class="col m10"></div> 
+    <div class="col m2 center-align card-panel login_c z-depth-3 ">
+        <h1>Login</h1>
+        <form action="{% url 'login' %}" method="post">
+            {% csrf_token %}
+            <input placeholder="Username" name="username" type="text"/>
+            <input placeholder="Password" name="password" type="password"/>
+            <input type="submit" value="Login" class="btn"/>
+            {% if message %}
+            <div>
+                {{ message }}
+            </div>
+            {% endif %}
+    </form>
+    </div>
+</div>
+{% endblock %}
