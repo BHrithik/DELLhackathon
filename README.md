@@ -35,8 +35,8 @@ An overview of
 
 List of team member names and email IDs with their contributions
 
-* Hrithik Bandaru --  hrithik170508@mechyd.ac.in  -- Background Research, User data, Front End and modelled Recommender System.
+* Hrithik Bandaru   --  hrithik170508@mechyd.ac.in    -- Background Research, User data, Front End and modelled Recommender System.
 
-* Kiran NVS --  saikiran170562@mechyd.ac.in -- Created backend with database integration and recommender system.
+* Kiran NVS         --  saikiran170562@mechyd.ac.in   -- Created backend with database integration and recommender system.
 
-* Kritvi Mittal --  kritvi1170520@mechyd.ac.in  -- Data Collection for modelling, Front End and database management.
+* Kritvi Mittal     --  kritvi1170520@mechyd.ac.in    -- Data Collection for modelling, Front End and database management.
